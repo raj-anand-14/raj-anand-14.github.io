@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ta">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daily Trending · Links</title>
+<meta name="description" content="Useful links from Daily Trending Shorts (Tamil & English)">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&family=Noto+Sans+Tamil:wght@500;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#060c1b;--card:#0e1730;--line:rgba(255,255,255,.1);--ink:#fff;--mut:#a9b4d0;--a:#19d3a2;--b:#ffcc00;--d:#5b8cff;--r:#ff2d2d}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:Inter,'Noto Sans Tamil',system-ui,sans-serif;min-height:100vh;
+ background-image:radial-gradient(circle at 10% 0%,rgba(25,211,162,.18),transparent 40%),radial-gradient(circle at 100% 60%,rgba(91,140,255,.18),transparent 45%)}
+.wrap{max-width:640px;margin:0 auto;padding:28px 16px 60px}
+header{text-align:center;margin-bottom:26px}
+.badge{display:inline-block;background:var(--b);color:#111;font-weight:800;padding:8px 18px;border-radius:40px;font-size:14px;letter-spacing:1px}
+h1{font-size:26px;font-weight:800;margin:14px 0 6px}
+header p{color:var(--mut);font-size:15px;line-height:1.5}
+.card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:20px;margin-bottom:18px}
+.card.today{border-color:var(--a);box-shadow:0 0 0 1px var(--a) inset}
+.date{display:flex;align-items:center;gap:10px;font-size:13px;color:var(--mut);font-weight:700;letter-spacing:.5px}
+.new{background:var(--a);color:#06101f;padding:3px 10px;border-radius:20px;font-size:12px}
+.t-ta{font-size:20px;font-weight:800;margin-top:10px;line-height:1.35}
+.t-en{font-size:15px;color:var(--mut);margin-top:4px}
+.sec{font-size:12px;font-weight:800;color:var(--b);letter-spacing:1px;margin:18px 0 10px;text-transform:uppercase}
+.btns{display:grid;gap:10px}
+a.btn{display:flex;align-items:center;justify-content:space-between;gap:12px;text-decoration:none;color:var(--ink);background:rgba(255,255,255,.06);border:1px solid var(--line);border-radius:14px;padding:14px 16px;font-weight:700;font-size:16px;min-height:52px}
+a.btn:active,a.btn:hover{background:rgba(255,255,255,.12)}
+a.btn .host{font-size:12px;color:var(--mut);font-weight:500;white-space:nowrap;flex-shrink:0}
+a.yt{background:rgba(255,45,45,.14);border-color:rgba(255,45,45,.4)}
+.src{margin-top:14px;font-size:12px;color:var(--mut)}
+footer{text-align:center;color:var(--mut);font-size:13px;margin-top:30px;line-height:1.6}
+.empty{color:var(--mut);text-align:center;padding:30px}
+</style>
+</head>
+<body>
+<div class="wrap">
+ <header>
+  <span class="badge">DAILY TRENDING</span>
+  <h1>பயனுள்ள இணைப்புகள் · Useful links</h1>
+  <p>எங்கள் Shorts-ல் சொன்ன அதிகாரப்பூர்வ இணையதளங்கள் மற்றும் செயலிகள்<br>Official sites and apps from our Shorts</p>
+ </header>
+ <main id="list"><div class="empty">Loading…</div></main>
+ <footer>இணைப்புகள் அதிகாரப்பூர்வ மூலங்களிலிருந்து மட்டுமே · Only official sources are linked.<br>Daily Trending</footer>
+</div>
+<script>
+const safe=u=>{try{const x=new URL(u);return x.protocol==='https:'||x.protocol==='http:'?x.href:null}catch(e){return null}};
+const el=(t,c,txt)=>{const e=document.createElement(t);if(c)e.className=c;if(txt!=null)e.textContent=txt;return e};
+function btn(o,cls){const h=safe(o.url);if(!h)return null;const a=el('a','btn'+(cls?' '+cls:''));a.href=h;a.target='_blank';a.rel='noopener';
+ a.appendChild(el('span','',o.label));a.appendChild(el('span','host',new URL(h).hostname.replace(/^www\./,'')));return a}
+function fmtDate(d){const x=new Date(d+'T00:00:00');return x.toLocaleDateString('en-IN',{day:'2-digit',month:'short',year:'numeric'}).toUpperCase()}
+fetch('links.json?v='+Date.now()).then(r=>r.json()).then(data=>{
+ const list=document.getElementById('list');list.innerHTML='';
+ data.sort((a,b)=>b.date.localeCompare(a.date));
+ if(!data.length){list.appendChild(el('div','empty','No links yet.'));return}
+ data.forEach((d,i)=>{
+  const c=el('section','card'+(i===0?' today':''));
+  const dt=el('div','date');dt.appendChild(el('span','',fmtDate(d.date)));if(i===0)dt.appendChild(el('span','new','LATEST'));c.appendChild(dt);
+  if(d.topic_ta)c.appendChild(el('div','t-ta',d.topic_ta));
+  if(d.topic_en)c.appendChild(el('div','t-en',d.topic_en));
+  if(d.links&&d.links.length){c.appendChild(el('div','sec','இணைப்புகள் · Links'));const g=el('div','btns');d.links.forEach(o=>{const b=btn(o);if(b)g.appendChild(b)});c.appendChild(g)}
+  if(d.videos&&d.videos.length){c.appendChild(el('div','sec','Watch'));const g=el('div','btns');d.videos.forEach(o=>{const b=btn(o,'yt');if(b)g.appendChild(b)});c.appendChild(g)}
+  if(d.source)c.appendChild(el('div','src','Source: '+d.source));
+  list.appendChild(c);
+ });
+}).catch(()=>{document.getElementById('list').innerHTML='<div class="empty">Could not load links. Please refresh.</div>'});
+</script>
+</body>
+</html>
