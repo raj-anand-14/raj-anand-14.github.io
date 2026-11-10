@@ -1,16 +1,61 @@
 [
  {
+  "date": "2026-11-10",
+  "topic_ta": "இன்று தமிழகத்தில் கனமழை வாய்ப்பு; அக்டோபரில் இயல்பை விட 32% அதிக மழை",
+  "topic_en": "Heavy rain possible in Tamil Nadu today; October rain 32% above normal",
+  "links": [
+   {
+    "label": "RMC சென்னை (IMD) · RMC Chennai website",
+    "url": "https://mausam.imd.gov.in/chennai/"
+   },
+   {
+    "label": "Mausam செயலி · Android",
+    "url": "https://play.google.com/store/apps/details?id=com.imd.masuam"
+   },
+   {
+    "label": "Mausam செயலி · iPhone",
+    "url": "https://apps.apple.com/in/app/mausam/id1522893967"
+   }
+  ],
+  "videos": [
+   {
+    "label": "தமிழ் Short",
+    "url": "https://youtube.com/shorts/65x_AL17h_4"
+   },
+   {
+    "label": "English Short",
+    "url": "https://youtube.com/shorts/juIcnS_D7RA"
+   }
+  ],
+  "source": "IMD / RMC Chennai via India.com (9 Nov 2026) & LiveChennai (31 Oct 2026)"
+ },
+ {
   "date": "2026-11-09",
   "topic_ta": "புற்றுநோய் மருந்துகளின் விலை குறைவு (நவம்பர் 9 முதல்)",
   "topic_en": "Cancer medicine prices cut from 9 November 2026",
   "links": [
-   {"label": "NPPA இணையதளம் · NPPA website", "url": "https://www.nppaindia.nic.in"},
-   {"label": "Pharma Sahi Daam · Android", "url": "https://play.google.com/store/apps/details?id=com.nic.app.searchmedicineprice"},
-   {"label": "Pharma Sahi Daam · iPhone", "url": "https://apps.apple.com/in/app/pharma-sahi-daam/id1192306450"}
+   {
+    "label": "NPPA இணையதளம் · NPPA website",
+    "url": "https://www.nppaindia.nic.in"
+   },
+   {
+    "label": "Pharma Sahi Daam · Android",
+    "url": "https://play.google.com/store/apps/details?id=com.nic.app.searchmedicineprice"
+   },
+   {
+    "label": "Pharma Sahi Daam · iPhone",
+    "url": "https://apps.apple.com/in/app/pharma-sahi-daam/id1192306450"
+   }
   ],
   "videos": [
-   {"label": "தமிழ் Short", "url": "https://youtube.com/shorts/unktTf1eo30"},
-   {"label": "English Short", "url": "https://youtube.com/shorts/HFpTSuvI0tI"}
+   {
+    "label": "தமிழ் Short",
+    "url": "https://youtube.com/shorts/unktTf1eo30"
+   },
+   {
+    "label": "English Short",
+    "url": "https://youtube.com/shorts/HFpTSuvI0tI"
+   }
   ],
   "source": "National Herald (IANS), 7 Nov 2026"
  }
