@@ -1,5 +1,31 @@
 [
  {
+  "date": "2026-11-14",
+  "topic_ta": "இந்தியாவில் காசநோய் மரணங்கள் 2015 முதல் 38% குறைவு (WHO அறிக்கை 2026)",
+  "topic_en": "India's TB deaths down 38% since 2015 (WHO Global TB Report 2026)",
+  "links": [
+   {
+    "label": "மத்திய காசநோய் பிரிவு (TB Mukt Bharat) · Central TB Division",
+    "url": "https://tbcindia.mohfw.gov.in"
+   },
+   {
+    "label": "Ni-kshay போர்டல் · Ni-kshay portal",
+    "url": "https://nikshay.in"
+   }
+  ],
+  "videos": [
+   {
+    "label": "தமிழ் Short",
+    "url": "https://youtube.com/shorts/M2MfElCPHvY"
+   },
+   {
+    "label": "English Short",
+    "url": "https://youtube.com/shorts/5IIIC1vJzh8"
+   }
+  ],
+  "source": "PTI (DT Next) / Business Standard, 13 Nov 2026"
+ },
+ {
   "date": "2026-11-13",
   "topic_ta": "சூர்யாவின் Scene 7 நாளில் ₹200 கோடி வசூல்",
   "topic_en": "Suriya's Scene crosses ₹200 crore in 7 days",
