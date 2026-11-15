@@ -1,5 +1,31 @@
 [
  {
+  "date": "2026-11-15",
+  "topic_ta": "U19 ஆசிய கோப்பை: கடைசி பந்தில் 338 ரன் இலக்கை எட்டி இந்தியா சாம்பியன்",
+  "topic_en": "India chase 338 on the last ball to win the U19 Asia Cup",
+  "links": [
+   {
+    "label": "BCCI அதிகாரப்பூர்வ தளம் · BCCI official site",
+    "url": "https://www.bcci.tv/"
+   },
+   {
+    "label": "ஆசிய கிரிக்கெட் கவுன்சில் · Asian Cricket Council",
+    "url": "https://www.asiancricket.org/"
+   }
+  ],
+  "videos": [
+   {
+    "label": "தமிழ் Short",
+    "url": "https://youtube.com/shorts/-vkktCDPnKo"
+   },
+   {
+    "label": "English Short",
+    "url": "https://youtube.com/shorts/CsrYUJPwCJE"
+   }
+  ],
+  "source": "Times of India (Willow Sports), 14 Nov 2026"
+ },
+ {
   "date": "2026-11-14",
   "topic_ta": "இந்தியாவில் காசநோய் மரணங்கள் 2015 முதல் 38% குறைவு (WHO அறிக்கை 2026)",
   "topic_en": "India's TB deaths down 38% since 2015 (WHO Global TB Report 2026)",
