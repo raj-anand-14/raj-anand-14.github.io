@@ -1,5 +1,31 @@
 [
  {
+  "date": "2026-11-18",
+  "topic_ta": "சென்னையில் தங்கம் சவரன் ₹1 லட்சத்துக்கு கீழே: ₹99,760",
+  "topic_en": "Chennai gold dips below ₹1 lakh per sovereign: ₹99,760",
+  "links": [
+   {
+    "label": "BIS CARE செயலி (Android) · BIS CARE app (Android)",
+    "url": "https://play.google.com/store/apps/details?id=com.bis.bisapp"
+   },
+   {
+    "label": "BIS CARE செயலி (iPhone) · BIS CARE app (iPhone)",
+    "url": "https://apps.apple.com/in/app/bis-care-app/id6443724891"
+   }
+  ],
+  "videos": [
+   {
+    "label": "தமிழ் Short",
+    "url": "https://youtube.com/shorts/Tq7EW_YxHF8"
+   },
+   {
+    "label": "English Short",
+    "url": "https://youtube.com/shorts/6o95joqdWRg"
+   }
+  ],
+  "source": "DT Next, 16-17 Nov 2026"
+ },
+ {
   "date": "2026-11-17",
   "topic_ta": "சபரிமலை நடை திறந்தது: மண்டல சீசனில் தினமும் 80,000 பக்தர்கள் வரை அனுமதி",
   "topic_en": "Sabarimala opens for the Mandala season: up to 80,000 devotees a day",
