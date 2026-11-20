@@ -1,5 +1,31 @@
 [
  {
+  "date": "2026-11-20",
+  "topic_ta": "வாயேஜர் 1: பூமியிலிருந்து ஒரு ஒளி நாள் (சுமார் 2,590 கோடி கி.மீ) தூரத்தை எட்டிய முதல் விண்கலம்",
+  "topic_en": "Voyager 1 becomes the first spacecraft to reach one light-day (about 25.9 billion km) from Earth",
+  "links": [
+   {
+    "label": "வாயேஜர் இப்போது எங்கே (NASA) · Where are the Voyagers now (NASA)",
+    "url": "https://science.nasa.gov/mission/voyager/where-are-voyager-1-and-voyager-2-now/"
+   },
+   {
+    "label": "Shine Bright for Voyager (NASA) · Shine Bright for Voyager's Light-Day (NASA)",
+    "url": "https://science.nasa.gov/mission/voyager/voyager-1/shine-bright-for-voyagers-light-day/"
+   }
+  ],
+  "videos": [
+   {
+    "label": "தமிழ் Short",
+    "url": "https://youtube.com/shorts/On_rB9z-M5U"
+   },
+   {
+    "label": "English Short",
+    "url": "https://youtube.com/shorts/nBcddEaizio"
+   }
+  ],
+  "source": "NASA / Space.com, 19 Nov 2026"
+ },
+ {
   "date": "2026-11-19",
   "topic_ta": "திருவண்ணாமலை கார்த்திகை தீபம்: 3,000 இலவச தரிசன டிக்கெட்டுகள் (பதிவு நவ. 20 மதியம் 3 வரை)",
   "topic_en": "Tiruvannamalai Karthigai Deepam: 3,000 free darshan tickets (register by 20 Nov, 3 PM)",
