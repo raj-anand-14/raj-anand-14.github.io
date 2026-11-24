@@ -1,5 +1,35 @@
 [
  {
+  "date": "2026-11-24",
+  "topic_ta": "சென்னையின் குகேஷ் உலக செஸ் சாம்பியன் பட்டத்தை காக்கும் போட்டி ஜெனீவாவில் தொடக்கம்",
+  "topic_en": "Chennai's Gukesh begins his World Chess Championship title defence against Javokhir Sindarov in Geneva",
+  "links": [
+   {
+    "label": "அதிகாரப்பூர்வ போட்டி இணையதளம் · Official match website",
+    "url": "https://worldchampionship.fide.com/"
+   },
+   {
+    "label": "போட்டி அட்டவணை · Match schedule",
+    "url": "https://worldchampionship.fide.com/schedule"
+   },
+   {
+    "label": "FIDE YouTube நேரலை · FIDE YouTube live",
+    "url": "https://www.youtube.com/@FIDE_chess/streams"
+   }
+  ],
+  "videos": [
+   {
+    "label": "தமிழ் Short",
+    "url": "https://youtube.com/shorts/YRtfyzaI3i4"
+   },
+   {
+    "label": "English Short",
+    "url": "https://youtube.com/shorts/UG460Cx6p2M"
+   }
+  ],
+  "source": "FIDE, 22 Nov 2026"
+ },
+ {
   "date": "2026-11-23",
   "topic_ta": "சென்னையின் அனுபமா ராமச்சந்திரன் மீண்டும் உலக ஸ்னூக்கர் சாம்பியன்",
   "topic_en": "Chennai's Anupama Ramachandran retains the IBSF World Snooker women's title",
