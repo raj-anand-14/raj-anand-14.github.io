@@ -1,5 +1,31 @@
 [
  {
+  "date": "2026-11-26",
+  "topic_ta": "காமராஜர் துறைமுகத்தில் ₹4,288 கோடியில் 2-வது கண்டெய்னர் முனையம்",
+  "topic_en": "Kamarajar Port gets a ₹4,288 crore second container terminal",
+  "links": [
+   {
+    "label": "காமராஜர் துறைமுகம் · Kamarajar Port Limited",
+    "url": "https://www.kamarajarport.in/"
+   },
+   {
+    "label": "துறைமுக அமைச்சகம் · Ministry of Ports, Shipping and Waterways",
+    "url": "https://shipmin.gov.in/"
+   }
+  ],
+  "videos": [
+   {
+    "label": "தமிழ் Short",
+    "url": "https://youtube.com/shorts/88_DWcIfKmc"
+   },
+   {
+    "label": "English Short",
+    "url": "https://youtube.com/shorts/-DaQHocA0pE"
+   }
+  ],
+  "source": "DT Next (PTI), 25 Nov 2026"
+ },
+ {
   "date": "2026-11-25",
   "topic_ta": "சென்னை அண்ணா பல்கலைக்கழகம் மூளை சிக்னல்களால் இயங்கும் சக்கர நாற்காலியை உருவாக்கியுள்ளது (DRDO நிதியுதவி)",
   "topic_en": "Anna University, Chennai builds a wheelchair controlled by brain signals (DRDO-funded)",
