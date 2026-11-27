@@ -1,5 +1,35 @@
 [
  {
+  "date": "2026-11-27",
+  "topic_ta": "IIT மெட்ராஸ் - ஹிந்துஸ்தான் ஜிங்க்: துத்தநாக-காற்று பேட்டரி மின்சார ஆட்டோ",
+  "topic_en": "IIT Madras & Hindustan Zinc: zinc-air battery electric auto",
+  "links": [
+   {
+    "label": "IIT மெட்ராஸ் · IIT Madras",
+    "url": "https://www.iitm.ac.in/"
+   },
+   {
+    "label": "வேதிப் பொறியியல் துறை · IIT Madras Chemical Engineering",
+    "url": "https://che.iitm.ac.in/"
+   },
+   {
+    "label": "ஹிந்துஸ்தான் ஜிங்க் · Hindustan Zinc",
+    "url": "https://www.hzlindia.com/"
+   }
+  ],
+  "videos": [
+   {
+    "label": "தமிழ் Short",
+    "url": "https://youtube.com/shorts/denzbY6pMVU"
+   },
+   {
+    "label": "English Short",
+    "url": "https://youtube.com/shorts/ni1ssm7Tycg"
+   }
+  ],
+  "source": "ThePrint (PTI), 26 Nov 2026"
+ },
+ {
   "date": "2026-11-26",
   "topic_ta": "காமராஜர் துறைமுகத்தில் ₹4,288 கோடியில் 2-வது கண்டெய்னர் முனையம்",
   "topic_en": "Kamarajar Port gets a ₹4,288 crore second container terminal",
