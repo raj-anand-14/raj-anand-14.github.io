@@ -1,5 +1,31 @@
 [
  {
+  "date": "2026-11-28",
+  "topic_ta": "சென்னை ஆட்டோ ஓட்டுநர்களில் 70% பேர் மின்சார ஆட்டோவுக்கு மாற விரும்புகின்றனர் (CAG ஆய்வு, 1,008 ஓட்டுநர்கள்)",
+  "topic_en": "70% of Chennai auto drivers want to switch to electric autos (CAG survey of 1,008 drivers)",
+  "links": [
+   {
+    "label": "CAG சென்னை · CAG Chennai",
+    "url": "https://www.cag.org.in/"
+   },
+   {
+    "label": "மின்சார ஆட்டோ அறிக்கை வெளியீடு · Electric auto report launch",
+    "url": "https://www.cag.org.in/events/report-launch-electrifying-three-wheelers-understanding-barriers-electric-auto-uptake-among"
+   }
+  ],
+  "videos": [
+   {
+    "label": "தமிழ் Short",
+    "url": "https://youtube.com/shorts/jV4iZXC3h-Y"
+   },
+   {
+    "label": "English Short",
+    "url": "https://youtube.com/shorts/pvPvnJ7z9xg"
+   }
+  ],
+  "source": "DT Next, 27 Nov 2026"
+ },
+ {
   "date": "2026-11-27",
   "topic_ta": "IIT மெட்ராஸ் - ஹிந்துஸ்தான் ஜிங்க்: துத்தநாக-காற்று பேட்டரி மின்சார ஆட்டோ",
   "topic_en": "IIT Madras & Hindustan Zinc: zinc-air battery electric auto",
